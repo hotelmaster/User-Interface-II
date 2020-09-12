@@ -5,35 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <h1>Mathew Briguglio</h1>
-        <h4>"Mathematics is the poetry of relaity."</h4>
+        <div class="bar">" "</div>
         <nav class="navContainer">
             <a class="navItem" href="#">Home</a>
-            <a class="navItem" href="#">About</a>
-            <a class="navItem" href="#">Contact</a>
-            <a class="navItem" href="#">Projects</a>
+            <a class="navItem" href="about.html">About</a>
+            <a class="navItem" href="contact.html">Contact</a>
+            <a class="navItem" href="projects.html">Projects</a>
+            <!-- <a href="#" class="fa fa-linkedin"></a> -->
         </nav>
     </header>
     
     <div class="flexContainer">
-        <div class="item1" id="item1">title of a</div>
-        <div class="item2" id="item2">project</div>
-        <div class="item3">might go</div>
-        <div class="item4">right here</div>
-        <div class="item5">cool thing</div>
-        <div class="item6">fun thing</div>
-        <div class="item7">spicy thing</div>
-        <div class="item8">special thing</div>
-        <div class="item9">big thing</div>
-        <div class="item10">My Name, My Projects button</div>
+        <div class="item1">
+            <img src="https://picsum.photos/320" alt="lorem picsum random">
+        </div>
+        <div class="item2">
+            <h3>Mathew Briguglio</h3>
+            <button onclick="window.location.href='projects.html';" target="_blank">My Projects</button>
+            <p>Here are some words about me and my journey in coding so far. These words are authentic and inspiring. These words tell my story.</p>
+        </div>
+        <div class="item3">
+            <img src="https://picsum.photos/180" alt="lorem picsum random">
+        </div>
+        <div class="item4">
+            <img src="https://picsum.photos/179" alt="lorem picsum random">
+        </div>
+        <div class="item5">
+            <img src="https://picsum.photos/181" alt="lorem picsum random">
+        </div>
+        <div class="item6">
+            <img src="https://picsum.photos/178" alt="lorem picsum random">
+        </div>
+        <div class="item7">
+            <img src="https://picsum.photos/183" alt="lorem picsum random">
+        </div>
+        <div class="item8">
+            <img src="https://picsum.photos/184" alt="lorem picsum random">
+        </div>
+        <div class="item9">
+            <img src="https://picsum.photos/185" alt="lorem picsum random">
+        </div>
+        <div class="item10">
+            <img src="https://picsum.photos/186" alt="lorem picsum random">
+        </div>
     </div>
 
-    <footer>
-        <h3>Like what you see?</h3>
-        <button type="button">Contact Me</button>
+    <footer class="footContainer">
+        <div class="foot1">
+            <h3>Like what you see?</h3>
+            <button type="button" href="contact.html">Contact Me</button>
+        </div>
+        <div class="foot2">
+            <p>Connect with me on LinkedIn: </p><a class="fa" id="fa-linkedin" href="https://www.linkedin.com/in/mathew-briguglio-74944a170/">in</a>
+        </div>
     </footer>
 </body>
 </html>

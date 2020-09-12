@@ -52,25 +52,27 @@ html {
     font-size:10px;
 }
 body {
-    height:131vh;
+    height:135vh;
     border:solid 0.2rem black;
     margin: 0 42rem;
 }
 header {
-    border-bottom:2px dashed black;
-    height:22rem;
+    border-bottom:2px solid black;
+    height:18.5rem;
     background-color:grey;
 }
 h1 {
     font-size:5rem;
     padding:2rem;
 }
-h4 {
-    font-size:2rem;
+h1:hover {
+    text-transform:lowercase;
+}
+.bar {
+    margin:0 2rem;
+    width:100rem;
+    height:1rem;
     background-color:black;
-    color:rgb(4, 128, 0);
-    font-style:italic;
-    margin:0 1rem;
 }
 .navContainer {
     display:flex;
@@ -90,13 +92,45 @@ nav .navItem {
     background-color:rgb(30, 255, 161);
     border:0.2rem solid black;
 }
+#fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa {
+    padding: 1rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 0.2rem;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 nav .navItem:hover {
     color:white;
     font-style:italic;
     background-color:black;
 }
+/* Figure out social media link
+.fa {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 0.2rem;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  } */
+
 .item1 {
-    background-color:lightblue;
+    background-color:rgb(30, 255, 161);
     height:32rem;
     width:42rem;
     border:0.2rem black solid;
@@ -104,15 +138,33 @@ nav .navItem:hover {
     padding:2rem;
 }
 .item2 {
-    background-color:orange;
     height:32rem;
     width:42rem;
-    border:0.2rem black solid;
     margin: 1rem 1rem;
-    padding:2rem;
+    padding:2rem 2rem;
+}
+.item2 p {
+    font-size:2.8rem;
+    margin-top:1.5rem;
+}
+.item2 h3 {
+    font-size:2.8rem;
+    margin-top:3.5rem;
+    margin-bottom:1.5rem;
+}
+.item2 h3:hover {
+    text-transform:uppercase;
+}
+.item2 button {
+    font-size:1.5rem;
+    padding:1.5rem 3.5rem;
+}
+.item2 button:hover {
+    background-color:black;
+    color:white;
 }
 .item3 {
-    background-color:lightpink;
+    background-color:lightgrey;
     height:19rem;
     width:19rem;
     border:0.2rem black solid;
@@ -120,7 +172,7 @@ nav .navItem:hover {
     padding:2rem;
 }
 .item4 {
-    background-color:red; 
+    background-color:lightgrey; 
     height:19rem;
     width:19rem;
     border:0.2rem black solid;
@@ -136,7 +188,7 @@ nav .navItem:hover {
     padding:2rem;
 }
 .item6 {
-    background-color:purple; 
+    background-color:lightgrey; 
     height:19rem;
     width:19rem;
     border:0.2rem black solid;
@@ -149,7 +201,7 @@ nav .navItem:hover {
     border:0.2rem black solid;
     margin: 1rem 1rem;
     padding:2rem;
-    background-color:magenta;
+    background-color:lightgrey;
 }
 .item8 {
     height:19rem;
@@ -157,14 +209,14 @@ nav .navItem:hover {
     border:0.2rem black solid;
     margin: 1rem 1rem;
     padding:2rem;
-    background-color:teal;
+    background-color:lightgrey;
 }
 .item9 {
     height:19rem;
     width:19rem;
     border:0.2rem black solid;margin: 1rem 1rem;
     padding:2rem;
-    background-color:grey;
+    background-color:lightgrey;
 }
 .item10 {
     height:19rem;
@@ -172,31 +224,63 @@ nav .navItem:hover {
     border:0.2rem black solid;
     margin: 1rem 1rem;
     padding:2rem;
-    background-color:forestgreen;
+    background-color:rgb(30, 255, 161);
 }
 .flexContainer {
     height:90rem;
     display:flex;
     flex-flow:row wrap;
+    justify-content:space-between;
     align-content:flex-start;
 }
 footer {
     padding:2rem;
     text-align:center;
-    border-top:2px dashed black;
+    border-top:2px solid black;
     background-color:grey;
+    height:14rem;
 }
+.footContainer {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+/* .foot1 {
+    height:11rem;
+    width:20rem;
+    background-color:white;
+}
+.foot2 {
+    height:11rem;
+    width:16rem;
+    background-color:white;
+} */
+.foot1 {
+    height:10rem;
+    width:30rem;
+    background-color:#787878;
+}
+.foot2 {
+    height:8rem;
+    width:30rem;
+    background-color:#787878;
+}
+
 footer h3 {
-    font-size:3rem;
+    font-size:2.5rem;
     margin-bottom:2rem;
 }
 footer button {
-    font-size:3rem;
-    padding:1rem;
+    font-size:1.5rem;
+    padding:1.5rem;
     background-color:rgb(30, 255, 161);
 }
 footer button:hover {
     font-style:italic;
     color:white;
     background-color:black;
+}
+footer .foot2 p {
+    margin-top:1.5rem;
+    font-size:2rem;
 }
