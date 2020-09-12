@@ -1,1 +1,202 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My CSS begins below the reset */
+html {
+    font-size:10px;
+}
+body {
+    height:131vh;
+    border:solid 0.2rem black;
+    margin: 0 42rem;
+}
+header {
+    border-bottom:2px dashed black;
+    height:22rem;
+    background-color:grey;
+}
+h1 {
+    font-size:5rem;
+    padding:2rem;
+}
+h4 {
+    font-size:2rem;
+    background-color:black;
+    color:rgb(4, 128, 0);
+    font-style:italic;
+    margin:0 1rem;
+}
+.navContainer {
+    display:flex;
+    align-items:center;
+    padding:1rem;
+    height:8rem;
+}
+nav .navItem {
+    height:1.5rem;
+    width:6rem;
+   /* margin:0.5rem 0.5rem; */
+    padding:1rem 1rem;
+    font-size:1.5rem;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    background-color:rgb(30, 255, 161);
+    border:0.2rem solid black;
+}
+nav .navItem:hover {
+    color:white;
+    font-style:italic;
+    background-color:black;
+}
+.item1 {
+    background-color:lightblue;
+    height:32rem;
+    width:42rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item2 {
+    background-color:orange;
+    height:32rem;
+    width:42rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item3 {
+    background-color:lightpink;
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item4 {
+    background-color:red; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item5 {
+    background-color:lightgrey; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item6 {
+    background-color:purple; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item7 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:magenta;
+}
+.item8 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:teal;
+}
+.item9 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;margin: 1rem 1rem;
+    padding:2rem;
+    background-color:grey;
+}
+.item10 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:forestgreen;
+}
+.flexContainer {
+    height:90rem;
+    display:flex;
+    flex-flow:row wrap;
+    align-content:flex-start;
+}
+footer {
+    padding:2rem;
+    text-align:center;
+    border-top:2px dashed black;
+    background-color:grey;
+}
+footer h3 {
+    font-size:3rem;
+    margin-bottom:2rem;
+}
+footer button {
+    font-size:3rem;
+    padding:1rem;
+    background-color:rgb(30, 255, 161);
+}
+footer button:hover {
+    font-style:italic;
+    color:white;
+    background-color:black;
+}
