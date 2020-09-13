@@ -1,0 +1,42 @@
+.bodyAbout {
+    height:141.5vh;
+    border:solid 0.2rem black;
+    margin: 0 42rem;
+}
+.aboutContainer {
+    margin:3rem 1rem;
+    font-size:3rem;
+    font-weight:bold;
+    height:89.5vh;
+}
+div.aboutContainer {
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:flex-start;
+    align-items:center;
+}
+div.aboutContainer .aboutItem {
+    color:white;
+    width:38rem;
+    height:25.1rem;
+    border:0.2rem solid black;
+    margin:0.2rem 0.5rem;
+    padding:1rem 1rem;
+    font-size:1.5rem;
+    background-color:rgb(61, 56, 56);
+}
+div.aboutContainer .aboutItem p {
+    margin-bottom:1rem;
+}
+.contactContainer {
+    margin:3rem 1rem;
+    font-size:3rem;
+    font-weight:bold;
+    height:89.5vh;
+}
+.projectContainer {
+    margin:3rem 1rem;
+    font-size:3rem;
+    font-weight:bold;
+    height:89.5vh;
+}
