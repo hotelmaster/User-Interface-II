@@ -333,3 +333,6 @@ footer .foot2 p {
     margin-top:1.5rem;
     font-size:2rem;
 }
+footer .foot2 p:hover {
+    border-bottom:1px solid rgb(68, 59, 59);
+}
