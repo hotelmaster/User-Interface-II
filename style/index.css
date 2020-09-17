@@ -47,7 +47,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* My CSS begins below the reset */
+/* My CSS begins below the reset ************************************************* */
+
 html {
     font-size:10px;
 }
@@ -68,6 +69,14 @@ h1 {
 h1:hover {
     text-transform:lowercase;
 }
+/* animation class works with @keyframe and animation duration */
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+  }
 .bar {
     margin:0 2rem;
     width:100rem;
@@ -314,9 +323,12 @@ footer {
 }
 
 footer h3 {
-    font-size:2.5rem;
+    font-size:2.2rem;
     margin-bottom:2rem;
-    margin-top:1.5rem;
+    margin-top:1.2rem;
+}
+footer h3:hover {
+    border-bottom:1px solid whitesmoke;
 }
 .contactBtn {
     font-size:1.5rem;
@@ -335,4 +347,67 @@ footer .foot2 p {
 }
 footer .foot2 p:hover {
     border-bottom:1px solid rgb(68, 59, 59);
+}
+/* mobile, tablet, desktop widths */
+/* original style is for the desktop page width */
+/* media query for 800px (which will be b/t 500 and 800) will give the tablet page width */
+/* media query for 500px will give the mobile page width */ 
+@media (max-width: 800px) {
+/* Able to put the classes that require adjustment inside media query */
+
+div.bar {
+    width:0;
+}
+body {
+    /* border:none; */
+    height:300vh;
+    margin:0;
+}
+h1 {
+    text-decoration:underline;
+}
+h1:hover {
+    background-color:rgb(121, 116, 116);
+}
+header {
+    height:20rem;
+}
+header .navContainer {
+    display:flex;
+    flex-flow:row wrap;
+    align-items:space-between;
+    text-align:center;
+}
+header .navContainer h3 {
+    margin:0;
+    padding:0 5rem;
+    text-align:center;
+}
+.flexContainer {
+    height: 200vh;
+    justify-content:space-evenly;
+    align-items:space-evenly;
+}
+.item1 {
+    height:21rem;
+    width:28rem;
+    margin:1rem;
+    padding:2rem;
+}
+#changeImgSize {
+    height:21rem;
+    width:28rem;
+}
+.item2 {
+    height:
+}
+
+
+
+
+
+}
+
+@media (max-width: 500px) {
+
 }

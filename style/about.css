@@ -1,5 +1,6 @@
 .bodyAbout {
-    height:141.5vh;
+    height:135.2vh;
+  /*  height:141.5vh; */
     border:solid 0.2rem black;
     margin: 0 42rem;
 }
@@ -47,8 +48,8 @@ footer.footContainer {
 }
 .footContainer .skills h4 {
     font-size:2.2rem;
-    margin-bottom:2rem
-    border:1px solid rgb(68, 59, 59);;
+    margin-bottom:2rem;
+    border:1px solid rgb(68, 59, 59);
 }
 .footContainer .skills ul li {
     text-decoration:none;
