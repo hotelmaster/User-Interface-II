@@ -1,1 +1,338 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My CSS begins below the reset */
+html {
+    font-size:10px;
+}
+body {
+    height:135.2vh;
+    border:solid 0.2rem black;
+    margin: 0 42rem;
+}
+header {
+    border-bottom:2px solid black;
+    height:18.5rem;
+    background-color:grey;
+}
+h1 {
+    font-size:5rem;
+    padding:2rem;
+}
+h1:hover {
+    text-transform:lowercase;
+}
+.bar {
+    margin:0 2rem;
+    width:100rem;
+    height:1rem;
+    background-color:black;
+}
+.navContainer {
+    display:flex;
+    align-items:center;
+    padding:1rem;
+    height:8rem;
+}
+.navContainer h3 {
+    margin-left:15rem;
+    font-size:2.7rem;
+    padding: 0 10rem;
+    color:white;
+}
+.navContainer h3:hover {
+    background-color:#3d3b3b;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+nav .navItem {
+    height:1.5rem;
+    width:6rem;
+    padding:1rem 1rem;
+    font-size:1.5rem;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    background-color:rgb(30, 255, 161);
+    border:0.2rem solid black;
+}
+#fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa {
+    padding: 1rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 0.2rem;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+nav .navItem:hover {
+    color:white;
+    font-style:italic;
+    background-color:black;
+}
+/* Figure out social media link
+.fa {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 0.2rem;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  } */
+#item1caption {
+    font-size:1.5rem;
+    margin:0 4rem;
+    text-align:center;
+    color:rgb(58, 56, 56);
+}
+#item1caption:hover {
+    background-color:black;
+    color:whitesmoke;
+}
+.item1 {
+    background-color:rgb(30, 255, 161);
+    height:32rem;
+    width:42rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item1:hover {
+    border:black solid 0.5rem;
+}
+.item2 {
+    height:32rem;
+    width:42rem;
+    margin: 1rem 1rem;
+    padding:2rem 2rem;
+}
+.item2 p {
+    font-size:2rem;
+    margin-top:5rem;
+}
+.item2 h3 {
+    font-size:2.7rem;
+    margin-top:1.5rem;
+    margin-bottom:3rem;
+    border-bottom:0.2rem solid black;
+}
+.item2 h3:hover {
+    text-transform:uppercase;
+}
+.item2 a {
+    font-size:1.5rem;
+    padding:1rem 2.5rem;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    border:0.2rem solid black;
+}
+.item2 a:hover {
+    font-weight:bold;
+    background-color:white;
+    color:black;
+    border:solid 0.2rem rgb(30, 255, 161);
+}
+.item3 {
+    background-color:lightgrey;
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item4 {
+    background-color:lightgrey; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item5 {
+    background-color:lightgrey; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item6 {
+    background-color:lightgrey; 
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+}
+.item7 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:lightgrey;
+}
+.item8 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:lightgrey;
+}
+.item9 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;margin: 1rem 1rem;
+    padding:2rem;
+    background-color:lightgrey;
+}
+.item10 {
+    height:19rem;
+    width:19rem;
+    border:0.2rem black solid;
+    margin: 1rem 1rem;
+    padding:2rem;
+    background-color:rgb(30, 255, 161);
+}
+#item10fig {
+    background-color:rgb(30, 255, 161);
+    color:white;
+}
+#item10fig:hover {
+    background-color:rgb(59, 55, 55);
+    color:white;
+}
+figcaption {
+    font-size:1.5rem;
+    margin:0 4rem;
+    text-align:center;
+}
+figcaption:hover {
+    color:rgb(59, 55, 55);
+    font-style:italic;
+    background-color:rgb(30, 255, 161);
+}
+.flexContainer {
+    height:90rem;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-content:flex-start;
+}
+footer {
+    padding:2rem;
+    text-align:center;
+    border-top:2px solid black;
+    background-color:grey;
+    height:14rem;
+}
+.footContainer {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+/* .foot1 {
+    height:11rem;
+    width:20rem;
+    background-color:white;
+}
+.foot2 {
+    height:11rem;
+    width:16rem;
+    background-color:white;
+} */
+.foot1 {
+    height:11rem;
+    width:30rem;
+    background-color:#787878;
+}
+.foot2 {
+    height:8rem;
+    width:30rem;
+    background-color:#787878;
+}
+
+footer h3 {
+    font-size:2.5rem;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
+}
+.contactBtn {
+    font-size:1.5rem;
+    padding:1.5rem;
+    background-color:rgb(30, 255, 161);
+    color:black;
+}
+.contactBtn:hover {
+    font-style:italic;
+    color:white;
+    background-color:black;
+}
+footer .foot2 p {
+    margin-top:1.5rem;
+    font-size:2rem;
+}
+footer .foot2 p:hover {
+    border-bottom:1px solid rgb(68, 59, 59);
+}
